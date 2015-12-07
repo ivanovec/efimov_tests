@@ -1,0 +1,116 @@
+
+.toolbar-button {
+  color: darkblue;
+}
+
+label {
+  font-weight: normal;
+}
+
+/* universal */
+
+#error_explanation {
+  color: red;
+  ul {
+    color: red;
+    font-size: 13px;
+    margin: 0 0 10px 0;
+  }
+}
+
+.field_with_errors {
+  @extend .has-error;
+  .form-control {
+    color: $state-danger-text;
+  }
+}
+
+header {
+  div {
+    ul {
+      float: right;
+      li {
+        float: left;
+      }
+
+    }
+  }
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $gray-light;
+}
+
+/* header */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+body {
+  padding-top: 60px;
+}
+
+.system {
+  visibility: hidden;
+}
+
+tr, th, td {
+  text-align: center;
+  vertical-align: middle;
+  horiz-align: center;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.top-buffer-small {
+  margin-top: 5px;
+}
+
+hr {
+  clear: both;
+  margin: 0;
+}
+
+.tab {
+  color: white;
+}
