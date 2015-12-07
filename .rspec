@@ -1,4 +1,4 @@
 --color
 --require spec_helper
-#--format html
-#--out rspec_results.html
+--format html
+--out rspec_results.html
