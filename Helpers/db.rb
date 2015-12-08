@@ -1,3 +1,4 @@
+#used for generate dummy data, because it is faster than db:fixtures:load
 class DB
 	def self.add_dummy_load
 		begin
