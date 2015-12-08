@@ -61,8 +61,7 @@ describe "dummy order planning" do
 			@load_page.select_first_available_order
 			@load_page.click_submit
 			expect(@load_page.has_browser_alert(BROWSER_ALERT_CAPACITY_ERROR)).to be true
-			@load_page.accept_browser_alert
-			
+			@load_page.accept_browser_alert			
 		end
 		it "complete load with added order" do
 			@load_page.click_complete

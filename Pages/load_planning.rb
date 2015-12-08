@@ -34,7 +34,7 @@ class LoadPlanning < LoggedPage
 	
 	def click_complete
 		find(COMPLETE_LINK).click
-		@wait.until {find(VOLUME_LABEL).displayed?}
+		#@wait.until {has_browser_alert || find(VOLUME_LABEL).displayed?}
 	end	
 
 	def click_reopen

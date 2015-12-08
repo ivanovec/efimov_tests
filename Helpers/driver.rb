@@ -30,6 +30,6 @@ class Driver
 					:default_directory => Dir.pwd}}
 		end
 		@driver = Selenium::WebDriver.for DRIVER, :prefs => prefs 
-		@wait =  Selenium::WebDriver::Wait.new(:timeout => 20)
+		@wait =  Selenium::WebDriver::Wait.new(:timeout => 60)
 	end
 end
