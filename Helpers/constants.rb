@@ -13,6 +13,14 @@ module Constants
 	BROWSER_ALERT_COMPLETE_LOAD_SUCCESS = "Load has been successfully planned for delivery"
 	BROWSER_ALERT_CAPACITY_ERROR = "Not enough capacity"
 	
+	USERS = [
+				{:login => "dispatcher", :password => "dispatcher", :role => "dispatcher"},
+				{:login => "ivanov", :password => "ivanov", :role => "driver"},
+				{:login => "petrov", :password => "petrov", :role => "driver"},
+			]
+			
+	INCORRECT_INPUTS = [ '123', ' ', '@', '\\', ';']
+	
 	DISPATCHER_LOGIN	=	"dispatcher"
 	DISPATCHER_PASSWORD	=	"dispatcher"
 	DRIVER1_LOGIN		=	"ivanov"
